@@ -114,6 +114,21 @@ namespace SearchAlgoritm
             do
             {
                 Console.WriteLine("menu option");
+                Console.WriteLine("===============");
+                Console.WriteLine("1.linear search");
+                Console.WriteLine("2.Binary search");
+                Console.WriteLine("exit");
+                Console.WriteLine("enter your choice (1,2,3) : ");
+                pilihanmenu = Convert.ToInt32(Console.ReadLine());
+
+                switch (pilihanmenu)
+                {
+                    case 1 ;
+                        Console.WriteLine("");
+                        Console.WriteLine("==============");
+                        Console.WriteLine("Linear Search ");
+                        Console.WriteLine("==============");
+                }
             }
         }
     }
