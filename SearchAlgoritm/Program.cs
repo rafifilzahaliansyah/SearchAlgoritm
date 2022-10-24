@@ -20,6 +20,8 @@ namespace SearchAlgoritm
             while (true)
             {
 
+
+                UriFormat==if 
             }
         }
         static void Main(string[] args)
