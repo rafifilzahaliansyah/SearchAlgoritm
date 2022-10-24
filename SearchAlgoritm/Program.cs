@@ -139,8 +139,16 @@ namespace SearchAlgoritm
                         mylist.input();
                         break;
                     case 3:
+                        Console.WriteLine("exit.");
+                        break;
+                    default:
+                        Console.WriteLine("error");
+                        break;
                 }
-            }
+                //to exit from the console
+                Console.WriteLine("\n\n press return to exit.");
+                Console.ReadLine();
+            } while (pilihanmenu! = 3);
         }
     }
 }
