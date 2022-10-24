@@ -39,6 +39,23 @@ namespace SearchAlgoritm
                 arr[i] = Int32.Parse(s1);
             }
         }
+
+        public void BinarySearch()
+        {
+            char ch;
+            do
+            {
+                //accept the number to be searched
+                Console.Write("\nenter elements want you to search : ");
+                int item = Convert.ToInt32(Console.ReadLine());
+
+                //apply binary search
+                int lowerbound = 0;
+                int upperbound = n-1
+
+                //obtain the index of the middle elements
+            }
+        }
         static void Main(string[] args)
         {
         }
