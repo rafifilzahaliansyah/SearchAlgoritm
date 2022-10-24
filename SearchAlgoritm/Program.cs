@@ -91,14 +91,30 @@ namespace SearchAlgoritm
                 int item = Convert.ToInt32(Console.ReadLine());
 
                 ctr = 0;
-                for (i = 0; i<n;i++)
+                for (i = 0; i < n; i++)
                 {
-                    ctr++
+                    ctr++;
+                    if (arr[i] == item)
+                    {
+                        Console.WriteLine("\n" + item.ToString() + "found at position" + (i + 1).ToString());
+                        break;
+                    }
                 }
-            }
+                if (i == n)
+                    Console.WriteLine("\n" + item.ToString() + " not found in the array");
+                Console.WriteLine("number of comparison : " + ctr);
+                Console.Write("\ncontinue search (y/n : ");
+                ch = char.Parse(Console.ReadLine());
+            } while ((ch == 'y') || (ch == 'y'));
         }
         static void Main(string[] args)
         {
+            Program mylist = new Program();
+            int pilihanmenu;
+            do
+            {
+                Console.WriteLine("menu option");
+            }
         }
     }
 }
