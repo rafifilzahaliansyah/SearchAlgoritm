@@ -123,11 +123,22 @@ namespace SearchAlgoritm
 
                 switch (pilihanmenu)
                 {
-                    case 1 ;
+                    case 1:
                         Console.WriteLine("");
                         Console.WriteLine("==============");
                         Console.WriteLine("Linear Search ");
                         Console.WriteLine("==============");
+                        mylist.input();
+                        mylist.LinearSearch();
+                        break;
+                    case 2:
+                        Console.WriteLine("");
+                        Console.WriteLine("=============");
+                        Console.WriteLine("Binary Search");
+                        Console.WriteLine("=============");
+                        mylist.input();
+                        break;
+                    case 3:
                 }
             }
         }
